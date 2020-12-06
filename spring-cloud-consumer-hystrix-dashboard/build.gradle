@@ -1,0 +1,4 @@
+dependencies {
+    api project(':spring-cloud-api')
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix-dashboard'
+}

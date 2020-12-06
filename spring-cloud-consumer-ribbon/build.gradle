@@ -1,0 +1,5 @@
+dependencies {
+    api project(':spring-cloud-api')
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-ribbon'
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+}
